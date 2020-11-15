@@ -7,10 +7,10 @@
     --colorThree: #111;
 }
 
-::-webkit-scrollbar {
+::-webkit-scrollbar{
     width: 8px;
-  }
-  
+}
+
   /* Track */
   ::-webkit-scrollbar-track {
     background:var(--white);
@@ -18,15 +18,9 @@
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: var(--colorThree);
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
     background: var(--colorTwo);
   }
-
-
+  
 *{
     margin: 0;
     padding: 0;
